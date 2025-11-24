@@ -5,7 +5,7 @@ use crate::types::*;
 use reqwest::Client;
 use base64::{Engine as _, engine::general_purpose::STANDARD as BASE64};
 use solana_sdk::{
-    signature::{Keypair, Signer},
+    signature::Keypair,
     transaction::Transaction,
 };
 

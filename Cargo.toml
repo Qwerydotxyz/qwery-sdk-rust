@@ -1,0 +1,30 @@
+[package]
+name = "qwery-sdk"
+version = "0.1.0"
+edition = "2021"
+authors = ["Qwery <support@qwery.xyz>"]
+description = "Rust SDK for Qwery x402 Payment Facilitator - Zero fee Solana payments"
+license = "MIT"
+repository = "https://github.com/Qwerydotxyz/qwery-sdk-rust"
+homepage = "https://qwery.xyz"
+documentation = "https://docs.qwery.xyz"
+readme = "README.md"
+keywords = ["solana", "payments", "x402", "web3", "cryptocurrency"]
+categories = ["api-bindings", "cryptography::cryptocurrencies"]
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+thiserror = "1.0"
+base64 = "0.21"
+solana-sdk = "1.17"
+solana-client = "1.17"
+
+[dev-dependencies]
+tokio-test = "0.4"
+
+[lib]
+name = "qwery_sdk"
+path = "src/lib.rs"

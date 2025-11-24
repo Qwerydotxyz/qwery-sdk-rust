@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://res.cloudinary.com/dkfwg4ta8/image/upload/v1763920160/sdkts_wocykm.png" alt="Qwery SDK Banner" width="100%" />
+  <img src="https://res.cloudinary.com/dkfwg4ta8/image/upload/v1763970360/Group_7_ilugou.png" alt="Qwery SDK Banner" width="100%" />
 </div>
 
 # Qwery SDK for Rust
